@@ -21,7 +21,6 @@ body * {
 #container{
     width: 360px;
     height: 712px;
-    border: 1px solid red;
     margin: 56px auto 0px;
     padding-top: 56px;
 }

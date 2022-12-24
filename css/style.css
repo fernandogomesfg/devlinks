@@ -7,3 +7,9 @@ body{
     /*background: color, imagem, reapeat, position/size
     background: url(../img/bg-mobile.jpg), no-repeat, top center/cover;*/
 }
+
+#container{
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
+}

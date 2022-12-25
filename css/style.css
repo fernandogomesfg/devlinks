@@ -61,4 +61,6 @@ ul li a{
     border-radius: 8px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
 }

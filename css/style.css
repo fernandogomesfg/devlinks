@@ -11,6 +11,7 @@
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.05);
     --sociallinks-color: rgba(255, 255, 255, 0.2);
+    --switch-bg-url: url(../img/moon-stars.svg);
 }
 
 .light {
@@ -20,6 +21,7 @@
     --surface-color: rgba(0, 0, 0, 0.1);
     --surface-color-hover: rgba(0, 0, 0, 0.05);
     --sociallinks-color: rgba(0, 0, 0, 0.2);
+    --switch-bg-url: url(../img/sun.svg);
 
 }
 
@@ -47,6 +49,8 @@ body * {
     padding: 0 24px;
 }
 
+/* profile */
+
 #profile{
     text-align: center;
     padding: 24px;
@@ -62,6 +66,16 @@ body * {
 #profile p{
     font-weight: 500;
     line-height: 24px;
+}
+
+/* switch */
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-bg-url) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+    
 }
 
 /*links*/
